@@ -1,0 +1,20 @@
+.profile_container {
+  width: 80%;
+  margin: 24px auto;
+}
+
+.profile_card {
+  width: 40%;
+  margin: 24px auto;
+  padding: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  gap: 24px;
+}
+.profile_card img {
+  height: 120px;
+  width: 120px;
+}

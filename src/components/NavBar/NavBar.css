@@ -1,0 +1,28 @@
+/* .header_container {
+  background-color: aqua;
+} */
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar nav a {
+  padding-left: 16px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

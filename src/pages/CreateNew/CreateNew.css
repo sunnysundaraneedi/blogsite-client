@@ -1,0 +1,41 @@
+.create_form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.create_form input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 15px 7px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.create_form input:focus {
+  outline: none;
+}
+
+.create_form button {
+  width: 100%;
+  margin-top: 8px;
+  background-color: #555;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.create_form button:hover {
+  background-color: #908a8a;
+}
+
+.create_form h2 {
+  margin-bottom: 5px;
+}
+
+/* .content {
+  height: 40vh;
+} */
