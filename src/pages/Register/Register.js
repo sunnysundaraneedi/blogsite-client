@@ -23,7 +23,7 @@ const Register = () => {
         },
       };
       const { data } = await axios.post(
-        "http://localhost:3002/register",
+        "https://friendly-tan-buffalo.cyclic.app/register",
         {
           email,
           userName,

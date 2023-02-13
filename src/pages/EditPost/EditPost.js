@@ -19,7 +19,7 @@ const EditPost = () => {
     const fetchPost = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:3002/posts/${postID}`
+          `https://friendly-tan-buffalo.cyclic.app/posts/${postID}`
         );
         setTitle(data.title);
         setSummary(data.summary);
@@ -42,7 +42,7 @@ const EditPost = () => {
         },
       };
       const { data } = await axios.put(
-        `http://localhost:3002/posts/${postID}`,
+        `https://friendly-tan-buffalo.cyclic.app/posts/${postID}`,
         { title, summary, content },
         config
       );

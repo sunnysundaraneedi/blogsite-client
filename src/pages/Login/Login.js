@@ -25,7 +25,7 @@ const Login = () => {
         },
       };
       const { data } = await axios.post(
-        "http://localhost:3002/login",
+        "https://friendly-tan-buffalo.cyclic.app/login",
         {
           email,
           password,

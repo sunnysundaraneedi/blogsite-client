@@ -64,7 +64,11 @@ const CreateNew = () => {
         },
       };
       // const { data } =
-      await axios.post("http://localhost:3002/post", formData, config);
+      await axios.post(
+        "https://friendly-tan-buffalo.cyclic.app/post",
+        formData,
+        config
+      );
       // console.log(data);
       alert("Post created");
       navigate("/posts");

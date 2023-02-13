@@ -13,7 +13,7 @@ const Profile = () => {
     const fetchUserProfile = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:3002/profile/${profileID}`
+          `https://friendly-tan-buffalo.cyclic.app/profile/${profileID}`
         );
         setData(data);
         setLoading(false);

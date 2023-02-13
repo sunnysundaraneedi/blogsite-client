@@ -16,7 +16,9 @@ const PostDetail = () => {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const { data } = await axios.get(`http://localhost:3002/posts/${postID}`);
+      const { data } = await axios.get(
+        `https://friendly-tan-buffalo.cyclic.app/posts/${postID}`
+      );
       setPost(data);
     };
     fetchPost();
